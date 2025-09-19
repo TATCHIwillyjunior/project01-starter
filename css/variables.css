@@ -10,7 +10,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Encode Sans Expanded", sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: var(--contrast);
 	/* outline: 1px pink solid; */
 }

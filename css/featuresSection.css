@@ -1,24 +1,24 @@
 /*  features - section   */
-.features {
+.features-section {
     text-align: center;
     padding-top: 2em;
 }
 
-.features h2 {
+.features-section h2 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-size: 1.8em;
 }
 
-.features .features_container {
+.features-section .features_container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2em;
 }
 
-.features .fa-solid,
-.features .fa-regular {
+.features_container .fa-solid,
+.features_container .fa-regular {
     background-color: var(--main-clr);
     color: white;
     padding: 45px;
@@ -26,7 +26,7 @@
     margin-bottom: 1em;
 }
 
-.features article {
+.features_container article {
     max-width: 240px;
     background: #80808014;
     padding: 1.5em 0.8em;
